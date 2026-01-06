@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 20px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+}

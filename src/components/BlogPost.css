@@ -1,0 +1,15 @@
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--color-white);
+    width: 300px;
+    border-radius: 5px;
+}
+
+h3 a,
+h3 a:visited {
+    color: var(--color-primary);
+}
