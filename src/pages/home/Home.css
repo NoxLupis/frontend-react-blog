@@ -1,0 +1,16 @@
+.image-wrapper-2 {
+    max-width: 80vh;
+    display: flex;
+    flex: 1 1 100px;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.image-caption {
+    display: inherit;
+    justify-content: flex-end;
+}

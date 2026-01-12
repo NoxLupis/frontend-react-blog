@@ -1,0 +1,6 @@
+.blog {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 20px 0;
+}

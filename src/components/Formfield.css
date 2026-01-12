@@ -1,0 +1,46 @@
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-field label {
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.form-field input,
+.form-field textarea {
+    border: 1px var(--color-light-grey) solid;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-field textarea {
+    resize: vertical;
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+.form-field .error {
+    color: red;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.form-button {
+    background-color: var(--color-primary);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    filter: brightness(0.9);
+}
