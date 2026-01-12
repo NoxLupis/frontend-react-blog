@@ -11,7 +11,7 @@ const menuItems = [
 export default function Navbar() {
     return (
         <nav>
-            <div className="image-wrapper">
+            <div className="image-wrapper-1">
                 <img src={logo} alt="Company logo"/>
             </div>
             <ul>

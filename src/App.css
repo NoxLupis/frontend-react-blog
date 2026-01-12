@@ -12,9 +12,13 @@ body,
 }
 
 .page-container {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     overflow-y: auto;
     padding: 0 40px;
     background-color: var(--color-light-grey);
     box-sizing: border-box;
+
+    align-items: center;
 }
